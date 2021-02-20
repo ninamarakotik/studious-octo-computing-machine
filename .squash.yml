@@ -1,1108 +1,123 @@
 deployments:
-  Mya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  xMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  aMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  sMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  bMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  nMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  lMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  jMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  hMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  alMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  xmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  amamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  smamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  bmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  nmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  lmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  jmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  hmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  almamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  xmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  amamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  smamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  bmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  nmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  lmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  jmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  hmamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  almamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  xmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  amammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  smammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  bmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  nmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  lmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  mmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  jmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  hmammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
-  almammamMya:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-    depends_on:
-      - SALES_API:
-          app: api-sales/master
-      - PRODUCTS_API:
-          app: api-products
-      - SALES_APaI:
-          app: api-sales/masater
-      - PRODUCTS_aAPI:
-          app: api-prodaucts
   MyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   xMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   aMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   sMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   bMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   nMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   lMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   jMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   hMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   alMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
-  mamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  xmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  amamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  smamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  bmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  nmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  lmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  jmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  hmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  almamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  xmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  amamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  smamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  bmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  nmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  lmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  jmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  hmamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  almamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  xmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  amammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  smammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  bmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  nmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  lmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  mmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  jmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  hmammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
-  almammamMyApp:
-    filename:
-      ./Dockerfile
-    context_path:
-      ./
-    port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
 
   mamMyApp:
     filename:
@@ -1110,333 +125,837 @@ deployments:
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   xmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   amamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   smamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   bmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   nmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   lmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   jmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   hmamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   almamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  xmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  amamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  smamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  bmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  nmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  lmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  jmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  hmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  almamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   xmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   amammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   smammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   bmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   nmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   lmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   jmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   hmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   almammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+
+  mamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  xmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  amamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  smamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  bmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  nmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  lmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  jmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  hmamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  almamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   xmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   amammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   smammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   bmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   nmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   lmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   jmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   hmammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   almammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  xmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  amammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  smammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  bmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  nmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  lmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  mmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  jmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  hmammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  almammamMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   xmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   amammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   smammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   bmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   nmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   lmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   mmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   jmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   hmammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
   almammammamMyApp:
     filename:
       ./Dockerfile
     context_path:
       ./
     port_forwarding:
-      80:3000
+      80:3000 
+    auto_deploy_on_commits:
+      true
