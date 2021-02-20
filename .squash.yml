@@ -5,7 +5,13 @@ deployments:
     context_path:
       ./
     port_forwarding:
-      # For this example the user's application HTTP service is
-      # listening to port 3000. We are mapping to port 80 in the
-      # actual host VM so Squash can route traffic to the application.
       80:3000
+    depends_on:
+      - SALES_API:
+          app: api-sales/master
+      - PRODUCTS_API:
+          app: api-products
+      - SALES_APaI:
+          app: api-sales/masater
+      - PRODUCTS_aAPI:
+          app: api-prodaucts
