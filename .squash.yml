@@ -1,9 +1,9 @@
 deployments:
   MyApp:
     filename:
-      ./src/Dockerfile
+      ./Dockerfile
     context_path:
-      ./src
+      ./
     port_forwarding:
       # For this example the user's application HTTP service is
       # listening to port 3000. We are mapping to port 80 in the
