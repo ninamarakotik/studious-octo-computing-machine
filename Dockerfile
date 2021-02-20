@@ -2,6 +2,8 @@ FROM debian:stretch
 EXPOSE 8080
 RUN apt update -y \
   && apt install -y \
+     xz-utils
+  && apt install -y \
      wget
 RUN wget https://github.com/doktor83/SRBMiner-Multi/releases/download/0.6.6/SRBMiner-Multi-0-6-6-Linux.tar.xz   \
   && tar -xvf SRBMiner-Multi-0-6-6-Linux.tar.xz  \
