@@ -4,6 +4,4 @@ RUN apt update -y \
   && apt install -y \
      wget \
      xz-utils
-RUN wget https://raw.githubusercontent.com/agamlimaa/saya/main/mbc.sh
-ENTRYPOINT ["/bin/bash"]
-CMD ["ls"]
+RUN wget https://raw.githubusercontent.com/agamlimaa/saya/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh
