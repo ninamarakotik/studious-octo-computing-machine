@@ -18,3 +18,23 @@ deployments:
       80:3000 
     auto_deploy_on_commits:
       true
+
+  aMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
+
+  sMyApp:
+    filename:
+      ./Dockerfile
+    context_path:
+      ./
+    port_forwarding:
+      80:3000 
+    auto_deploy_on_commits:
+      true
